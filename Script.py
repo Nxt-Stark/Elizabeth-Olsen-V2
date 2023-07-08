@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """ʜɪ {},
 
-ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ᴇxᴄʟᴜsɪᴠᴇʟʏ ᴍᴀᴅᴇ ꜰᴏʀ  <a href=https://t.me/MMCgroup>ᴍᴏᴠɪᴇ ᴍᴇᴅɪᴀ</a>.ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴡʜᴀᴛ ᴄᴀɴ ɪ ᴅᴏ 😎
+ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ᴇxᴄʟᴜsɪᴠᴇʟʏ ᴍᴀᴅᴇ ꜰᴏʀ  <a href=https://t.me/MovieMediaTG>ᴍᴏᴠɪᴇ ᴍᴇᴅɪᴀ</a>.ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴡʜᴀᴛ ᴄᴀɴ ɪ ᴅᴏ 😎
 
 MᴀɪɴᴛᴀɪɴᴇD Bʏ  <a href=https://t.me/NxtStark>ᴺˣᵀˢᵀᴬᴿᴷ</a>"""
     OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
