@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Nxt-Stark/Elizabeth-Olsen-V2.git /Elizabeth-Olsen-V2
+  git clone https://github.com/ritheshrkrm/PiroAutoFilterBot.git /PiroAutoFilterBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Elizabeth-Olsen-V2
+  git clone $UPSTREAM_REPO /PiroAutoFilterBot
 fi
-cd /Elizabeth-Olsen-V2
+cd /PiroAutoFilterBot
 pip3 install -U -r requirements.txt
 echo "Starting PiroAutoFilterBot...."
 python3 bot.py
