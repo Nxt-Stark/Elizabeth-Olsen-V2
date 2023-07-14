@@ -731,7 +731,6 @@ async def auto_filter(client, msg, spoll=False):
             current_date=current_date,
             current_time=current_time,
             current_day=current_day
-            **locals()
         )
     else:
         cap = f"{search}\n\n<b>〓〓〓  〓〓〓\n\n⭐️ ɪᴍᴅʙ   | ⏰ ʀᴜɴ ᴍɪɴ |\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : </b>\n\n●\n● <code></code>\n\n⌚️ <b>Tɪᴍᴇ</b> : {current_time}\n📅 <b>Dᴀᴛᴇ</b> : {current_date}\n\n🥳 <i>Today is </i><b><i>{current_day}</i></b> By \n<a href='http://t.me/Cinimalokham'><b><i>Cinimalokham</i></b></a>"
