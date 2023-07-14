@@ -728,6 +728,9 @@ async def auto_filter(client, msg, spoll=False):
             plot=imdb['plot'],
             rating=imdb['rating'],
             url=imdb['url'],
+            current_date=current_date,
+            current_time=current_time,
+            current_day=current_day
             **locals()
         )
     else:
