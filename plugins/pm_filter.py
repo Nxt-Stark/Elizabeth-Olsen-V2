@@ -732,7 +732,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"{query}\n\n<b>〓〓〓 <a href={url}>{title}</a> 〓〓〓\n\n⭐️ ɪᴍᴅʙ  {rating} | ⏰ ʀᴜɴ {runtime} ᴍɪɴ |\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : {release_date}</b>\n\n● <code>{genres}</code>\n● <code>{languages}</code>\n\n⌚️ <b>Tɪᴍᴇ</b> : {current_time}\n📅 <b>Dᴀᴛᴇ</b> : {current_date}\n\n🥳 <i>Today is </i><b><i>{current_day}</i></b> By \n<a href='http://t.me/Cinimalokham'><b><i>Cinimalokham</i></b></a>"
+        cap = f"{search}\n\n<b>〓〓〓 <a href={url}></a> 〓〓〓\n\n⭐️ ɪᴍᴅʙ   | ⏰ ʀᴜɴ ᴍɪɴ |\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : </b>\n\n●\n● <code></code>\n\n⌚️ <b>Tɪᴍᴇ</b> : {current_time}\n📅 <b>Dᴀᴛᴇ</b> : {current_date}\n\n🥳 <i>Today is </i><b><i>{current_day}</i></b> By \n<a href='http://t.me/Cinimalokham'><b><i>Cinimalokham</i></b></a>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
